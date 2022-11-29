@@ -1,0 +1,239 @@
+/* --------------------------------------------- Header CSS Strat----------------------------------------------- */
+html,
+body {
+  overflow-x: hidden;
+}
+
+.navbar {
+  background-color: rgb(255, 255, 255);
+}
+
+.nav-item a {
+  padding: 8px;
+}
+
+.nav-link {
+  font-family: Segoe UI;
+  font-size: 17px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.nav-link:hover {
+  border-bottom: 5px solid #0b2647;
+  border-color: #0b2647;
+  color: #0b2647 !important;
+}
+
+.dropdown-menu li a:hover {
+  border-bottom: 5px solid;
+  border-color: #0b2647;
+  color: #0b2647 !important;
+}
+
+.navbar-nav .nav-item {
+  margin-right: 15px;
+  text-transform: uppercase;
+  font-weight: 800px;
+}
+
+.login a {
+  border: 1px solid #0b2647;
+  border-radius: 50px;
+}
+
+/* -------------------------------------- Header CSS End---------------------------------- */
+
+/* --------------------------------------Footer css starts ------------------------------- */
+
+.textcolorfooter {
+  color: #cfd4db !important;
+}
+
+.textcolorfooter a {
+  color: #cfd4db !important;
+  text-decoration: none;
+}
+
+.textcolorfooter a:hover {
+  color: #ffffff !important;
+}
+
+.textcolorfooter {
+  /*                background: url(images/footer4.png) no-repeat right;
+*/
+  background-color: #0b2647;
+  filter: brightness(80%);
+}
+
+/* --------------------------------------Footer css End ---------------------------------- */
+
+/*----------------------------------------# about us--------------------------------------*/
+.about-section {
+  background: url("images/7.jpg") no-repeat left fixed;
+  background-size: 55%;
+  background-color: #8d4419;
+  overflow: hidden;
+  padding: 50px 0;
+}
+
+.about-inner {
+  width: 60%;
+  float: right;
+  background-color: white;
+
+  padding: 100px;
+}
+
+/*---------------------------------------# about us End----------------------------------------*/
+
+/* --------------------------------------------------Signup starts-----------------------------------------*/
+/* .s{
+       background:url(images/11.jpg) no-repeat center;
+       /*  filter:brightness(80%); */
+/*  background-size:100%;  
+       
+  
+  }
+   */
+.signup1 {
+  background-color: white;
+  margin: 30px;
+  background-size: 100%;
+  border-radius: 10px;
+  /*      border:2px solid black;
+  
+   */
+}
+
+.mybordersignup {
+  margin: 10px;
+}
+
+/* ---------------------------------------------------Signup ends---------------------------------------*/
+
+.entryborder {
+  border: 5px solid #f5f5f5;
+
+  background-color: #f5f5f5;
+  border-width: 20px;
+  border-color: #dfdfdf;
+  border-radius: 2%;
+  border-style: solid;
+  padding: 20px;
+  margin: 10px;
+}
+
+/* --------------------------------------------------home page starts--------------------------------*/
+.bgimages {
+  background: url(images/11111.jpg) no-repeat center;
+  background-size: 100%;
+  background-color: black;
+  font-size: 15px;
+  height: 100%;
+  padding: 150px;
+}
+
+.cardtext a {
+  text-decoration: none;
+  color: #091e39;
+}
+
+.containerhome {
+  background: url(images/la1.jpg) no-repeat fixed;
+  background-color: #0b2647;
+  background-size: cover;
+  height: 250px;
+  font-style: italic;
+  filter: brightness(50%);
+}
+/* -----------------------------------------------------home page Ends---------------------------------------*/
+
+.container .testimonial {
+  max-width: 950px;
+  margin: 50px;
+}
+
+.card {
+  border-radius: 1rem;
+  box-shadow: 0px -10px 0px #091e39;
+}
+
+@media (max-width: 767px) {
+  .card {
+    margin: 1rem 0.7rem 1rem;
+    max-width: 80vw;
+  }
+}
+
+.card-image img {
+  width: 6.2rem;
+  border-radius: 5rem;
+  margin: 1.3rem auto 1rem auto;
+}
+
+.col-md-4 {
+  padding: 0 0.5rem;
+}
+
+.card-title {
+  font-size: 1rem;
+  margin-bottom: 0;
+  font-weight: bold;
+  font-family: "IM Fell French Canon SC";
+}
+
+.card-text {
+  text-align: center;
+  padding: 1rem 2rem;
+  font-size: 0.8rem;
+  color: rgb(82, 81, 81);
+  line-height: 1.4rem;
+}
+
+.footer {
+  border-top: none;
+  text-align: center;
+  line-height: 1.2rem;
+  padding: 2rem 0 1.4rem 0;
+  font-family: "Varela Round";
+}
+
+#name {
+  font-size: 0.8rem;
+  font-weight: bold;
+}
+
+#position {
+  font-size: 0.7rem;
+}
+.bimimage {
+  background: url(images/footer1.png) no-repeat center;
+  background-size: cover;
+  background-color: black;
+  padding: 200px;
+}
+
+.colorsemester {
+  color: #0d6efd;
+}
+
+.containerbanner {
+  background: url(images/h.jpg) no-repeat center fixed;
+  background-color: #0b2647;
+  background-size: cover;
+  height: 300px;
+  font-style: italic;
+  font-size: xx-large;
+  filter: brightness(50%);
+  padding: 50px;
+}
+
+.syllabus-link {
+  text-decoration: none;
+  font-weight: bold;
+}
+td a {
+  text-decoration: none;
+  font-weight: bold;
+}
